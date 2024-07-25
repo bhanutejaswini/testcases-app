@@ -95,23 +95,20 @@ option {
 
 /* Test Cases */
 .testcases-table {
-  margin: 0 auto;
+  margin: 0 auto 10px;
   border: 3px solid var(--blue-color2);
   width: 80%;
   border-collapse: collapse;
 }
+
 .testcases-header-column {
   margin: 10px;
   padding: 15px;
 }
 
-.testcases-row {
-  margin: 20px;
-}
-
 .testcases-column {
   margin: 10px;
-  padding: 25px;
+  padding: 25px 25px 45px;
 }
 
 .testcases-header {
@@ -123,6 +120,6 @@ option {
 
 .updated {
   font-size: 0.75em;
-  margin: -35px 3px;
+  margin: -40px 3px;
   width: 80%;
 }
