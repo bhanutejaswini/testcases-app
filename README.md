@@ -1,6 +1,6 @@
 # Test Cases App
 
-This is a webpage that displays test cases. This web page is built using React, Flask and PostgreSQL.
+This is a web page that displays test cases. This web page is built using React, Flask and PostgreSQL.
 
 
 ## Table of contents
@@ -32,6 +32,6 @@ This is a webpage that displays test cases. This web page is built using React, 
   * Start backend using command 'python app.py'
 * Frontend
   * Go to the frontend folder in a terminal using 'cd frontend'
-  * Run command: 'npm install' to get required packages
-  * To start the front end, run command: 'npm start'
-  * Go the 'http://localhost:3000/' to see the app
+  * Run command: 'npm install' to get the required packages
+  * To start the front end, run the command: 'npm start'
+  * Go to 'http://localhost:3000/' to see the app
