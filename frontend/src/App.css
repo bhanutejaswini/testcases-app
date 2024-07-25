@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #131842;
+  --blue-color1: #2a629a;
+  --blue-color2: #03346e;
+  --pink-color: #f075aa;
+  --purple-color: #7469b6;
+  --grey-color: #eeeeee;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  background-color: var(--main-color);
+  color: var(--grey-color);
+}
+
+textarea {
+  background-color: var(--blue-color2);
+  color: var(--grey-color);
+  border: 1px solid var(--blue-color2);
+  padding: 3px;
+  /* border-radius: 3px; */
+}
+
+select {
+  background-color: var(--blue-color1);
+  color: var(--grey-color);
+  border: 1px solid var(--blue-color1);
+  padding: 5px 10px;
+  border-radius: 1px;
+}
+
+option {
+  background-color: var(--purple-color);
+  padding: 2px;
+  border-radius: 0;
+  overflow: hidden;
+}
+/* Header */
+.header {
+  padding: 20px;
+  border-bottom: 0.5px solid var(--grey-color);
+  font-size: 2em;
+}
+
+/* Search */
+.search-container {
+  margin: 30px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  height: 50px;
+  width: 50%;
+  border-radius: 30px;
+  background-color: var(--blue-color2);
+  color: #fff;
+  border: 1px solid var(--blue-color2);
+  padding: 10px 30px;
+}
+.search-box::placeholder {
+  color: var(--grey-color);
+}
+
+.search-icon {
+  height: 50px;
+  width: 70px;
+  background-color: var(--pink-color);
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: -50px;
+}
+
+/* Filter */
+.filter {
+  margin: 30px 0 15px 140px;
+  background-color: var(--blue-color1);
+  border-radius: 5px;
+  width: 12%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Test Cases */
+.testcases-table {
+  margin: 0 auto;
+  border: 3px solid var(--blue-color2);
+  width: 80%;
+  border-collapse: collapse;
+}
+.testcases-header-column {
+  margin: 10px;
+  padding: 15px;
+}
+
+.testcases-row {
+  margin: 20px;
+}
+
+.testcases-column {
+  margin: 10px;
+  padding: 25px;
+}
+
+.testcases-header {
+  background-color: var(--blue-color1);
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.updated {
+  font-size: 0.75em;
+  margin: -35px 3px;
+  width: 80%;
+}
