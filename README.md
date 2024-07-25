@@ -11,14 +11,15 @@ This is a webpage that displays test cases. This web page is built using React, 
 
 ## Landing page
 
-![image](https://github.com/user-attachments/assets/cf96c45a-1555-4029-aa0b-7ee74cccdac0)
+![image](https://github.com/user-attachments/assets/4fd52f04-e24b-4c18-8d40-55bf7052e9b0)
 
-![image](https://github.com/user-attachments/assets/919b36a3-7667-46de-a87b-7d902cc15d94)
+![image](https://github.com/user-attachments/assets/4f42e427-4133-4d17-be38-0fdfef03d94b)
+
 
 
 ## testcases table
 
-![image](https://github.com/user-attachments/assets/13c4d41c-1cf1-4941-b106-6fce7c83be4a)
+![image](https://github.com/user-attachments/assets/9ec37adb-de5b-4a52-aa6f-3bda1999a931)
 
 
 ## Steps to run locally
